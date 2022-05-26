@@ -1,0 +1,56 @@
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+
+	height: 100vh;
+
+	background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+}
+
+.txt {
+	display: block;
+
+	font-size: 2.7rem;
+	white-space: nowrap;
+	border-right: 4px solid;
+
+	overflow: hidden;
+
+	width: 8ch;
+
+	animation: typing 1.5s steps(8), blink 0.5s infinite step-end alternate;
+}
+
+@keyframes typing {
+	from {
+		width: 0;
+	}
+}
+
+@keyframes blink {
+	50% {
+		border-color: transparent;
+	}
+}
+
+.arrow {
+	font-size: 2rem;
+
+	margin-top: 50px;
+
+	animation: float 3s linear infinite;
+}
+
+@keyframes float {
+	0% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(10px);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
