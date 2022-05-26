@@ -1,0 +1,103 @@
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-flow: column wrap;
+
+	height: 100vh;
+}
+
+.title {
+	color: #000;
+	font-size: 3.5rem;
+}
+
+.skills {
+	font-size: 6rem;
+
+	margin-top: 50px;
+}
+
+.html {
+	color: #e44f26;
+
+	margin: 20px 40px;
+}
+
+.css {
+	color: #0277bd;
+
+	margin: 20px 40px;
+}
+
+.js {
+	color: #f0db4f;
+
+	margin: 20px 40px;
+}
+
+.ts {
+	color: #3178c6;
+
+	margin: 20px 40px;
+}
+
+.react {
+	color: #61dafb;
+
+	margin: 20px 40px;
+}
+
+.linux {
+	color: #000;
+
+	margin: 20px 40px;
+}
+
+.arrow {
+	font-size: 2rem;
+
+	animation: float 3s linear infinite;
+}
+
+@keyframes float {
+	0% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(10px);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+
+@media (max-width: 576px) {
+	.skills {
+		margin: 20px;
+	}
+
+	.html {
+		margin: 20px;
+	}
+
+	.css {
+		margin: 20px;
+	}
+
+	.js {
+		margin: 20px;
+	}
+
+	.ts {
+		margin: 20px;
+	}
+
+	.react {
+		margin: 20px;
+	}
+
+	.linux {
+		margin: 20px;
+	}
+}
